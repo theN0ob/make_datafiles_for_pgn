@@ -7,9 +7,6 @@ import collections
 import tensorflow as tf
 from tensorflow.core.example import example_pb2
 
-
-dm_single_close_quote = u'\u2019' # unicode
-dm_double_close_quote = u'\u201d'
 END_TOKENS = ['.', '!', '?', '...'] # acceptable ways to end a sentence
 
 # We use these to separate the summary sentences in the .bin datafiles
