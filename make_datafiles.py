@@ -10,6 +10,8 @@ from tensorflow.core.example import example_pb2
 
 END_TOKENS = ['.', '!', '?', '...'] # acceptable ways to end a sentence
 
+
+
 # We use these to separate the summary sentences in the .bin datafiles
 SENTENCE_START = '<s>'
 SENTENCE_END = '</s>'
